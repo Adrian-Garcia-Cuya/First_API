@@ -15,7 +15,7 @@ class InvoiceFilter extends ApiFilter
         'paidDate' => ['eq', 'gt', 'gte', 'lt', 'lte'],
     ];
     protected $columMap = [
-        'coustomerId' => 'customer_id',
+        'customerId' => 'customer_id',
         'billedDate' => 'billed_dated',
         'paidDate' => 'paid_dated'
     ];
